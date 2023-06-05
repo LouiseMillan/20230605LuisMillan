@@ -1,0 +1,33 @@
+   46  pwd
+   47  git init
+   48  git remote add origin https://github.com/LouiseMillan/20230605LuisMillan.git
+   49  git remote -v
+   50  git branch -M main
+   51  touch comandos.txt main.js index.html
+   52  git add .
+   53  git status
+   54  git commit -m "commit 01 de Luis Millan"
+   55  git push origin main
+   56  clear
+   57  git log
+   58  git branch feature
+   59  git switch feature
+   60  mkdir Hardware Software SeguridadInformatica
+   61  touch Hardware/resumen.txt
+   62  cp Hardware/resumen.txt Software/
+   63  cp Hardware/resumen.txt SeguridadInformatica/
+   64  clear
+   65  git log
+   66  git add .
+   67  git status
+   68  git commit -m "commit 02 de Luis Millan"
+   69  git push origin feature
+   70  git switch main
+   71  mv main.js resumenHardware.txt
+   72  mv index.html resumenSoftware.txt
+   73  git add .
+   74  git status 
+   75  git commit -m "commit 03 de Luis Millan"
+   76  git log
+   77  git push origin main
+   78  history >> comandos.txt 
